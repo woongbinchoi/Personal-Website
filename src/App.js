@@ -371,7 +371,7 @@ class Header extends Component {
 		return (
 			<div className="col-md-8 ProfileSummary">
 				<div className="row">
-					<h4 className="col-md-5">woongbinchoi</h4>
+					<h4 className="col-md-5">richardchoi</h4>
 					<div className="col-md-4 followButton">
 						<button type="button" className="btn" onClick={() => this.handleClick(4)}>Follow</button>
 					</div>

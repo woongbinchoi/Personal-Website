@@ -1,0 +1,149 @@
+[
+  {
+    "displaytype": "image",
+    "type": "Projects",
+    "name": "Arbie",
+    "modalinfoDescription": [
+      "Arbie is a chatbot that provides arbitrage information for 50+ crypto currencies in 200+ markets and 100+ countries.",
+      "Users can send query on currency prices for each coin and arbitrage opportunities across multiple markets or countries.",
+      "Arbie is currently published on Facebook Messenger."
+    ],
+    "modalinfoGithub": "https://github.com/woongbinchoi/Arbie",
+    "modalinfoWebsite": "https://www.facebook.com/CryptoArbitrageCalculator",
+    "modalinfoTools": "C#, ASP.NET, Visual Studio",
+    "modalinfoDate": "April 2018",
+    "modalPictures": [
+    	"ArbieModal.png",
+    	"CountryMultipleCountryOne.png",
+    	"Country-TwoCountry-Mult.png",
+    	"Market-MultiCoin.png",
+    	"Market-TwoCoin.png",
+    	"Market-TwoCoin-MultiMarket.png",
+    	"Market-TwoCoin-TwoMarket.png"
+    ]
+  },
+  {
+    "displaytype": "image",
+    "type": "Projects",
+    "name": "Maestro",
+    "modalinfoDescription": [
+		"Maestro is a web application that enables users to play virtual piano with using their mouse and keyboard.",
+		"Through NodeJS, concurrent communication across multiple threads is made possible.",
+		"Users can show off their piano skills alone, while others listen and make comments about it through instant messaging,",
+		"or they can group together and make a harmonious ensemble.",
+		"Users can also turn on “Chords mode” to play chords, arpeggio or waltz,",
+		"and play melodies on top of the chord progressions they select."
+    ],
+    "modalinfoGithub": "https://github.com/woongbinchoi/Maestro",
+    "modalinfoWebsite": "https://virtualmaestro.herokuapp.com/",
+    "modalinfoTools": "JavaScript, Node.js, HTML/CSS",
+    "modalinfoDate": "August 2017",
+    "modalPictures": [
+    	"MaestroModal.png",
+    	"Start.PNG",
+    	"Play.PNG",
+    	"Fun.PNG"
+    ]
+  },
+  {
+    "displaytype": "image",
+    "type": "Projects",
+    "name": "Sorcery",
+    "modalinfoDescription": [
+		"Sorcery is a two-player collectible card game where players alternately draw cards",
+		"and attack the other player by playing cards on hand until one of them loses all its health points.",
+		"It was developed with two other colleagues as a final project of CS246, Objected Oriented programming course in UW."
+    ],
+    "modalinfoGithub": "https://github.com/woongbinchoi/Sorcery",
+    "modalinfoTools": "C++",
+    "modalinfoDate": "January 2018",
+    "modalPictures": [
+    	"SorceryModal.png",
+    	"gameplay1.PNG",
+    	"gameplay2.PNG",
+    	"gameplay3.PNG",
+    	"handandhelp.png"
+    ]
+  },
+  {
+    "displaytype": "image",
+    "type": "Projects",
+    "name": "Gomoku",
+    "modalinfoDescription": [
+		"I implemented Gomoku, a popular Japanese board game on a web browser.",
+		"I added multiple features on top of the original game such as undoing moves,",
+		"restarting games and changing game settings including board size, player turn, piece color, etc.\n\n\n",
+		"Gomoku was my first exposure to HTML/CSS and Javascript.",
+		"It allowed me to make myself familiar with web development, and manage to finish a project with an acceptable outcome.",
+		"(Unlike Breeze-Through, which was a great failure.)"
+    ],
+    "modalinfoGithub": "https://github.com/woongbinchoi/Gomoku",
+    "modalinfoTools": "JavaScript, HTML/CSS",
+    "modalinfoDate": "May 2017",
+    "modalPictures": [
+    	"GomokuModal.png",
+    	"Start.PNG",
+    	"Init.PNG",
+    	"Game1.PNG",
+    	"Game2.PNG",
+    	"Game3.PNG",
+    	"Game4.PNG"
+    ]
+  },
+  {
+    "displaytype": "image",
+    "type": "Projects",
+    "name": "Breeze-Through",
+    "modalinfoDescription": [
+		"Breeze-Through is an android app that diagnoses users’ feeling through a short questionnaire,",
+		"and provides relevant quotes, photos and videos to relieve their stress and concerns.",
+		"This app is built with numbers of functionalities that Android Studio provides such as RecyclerView and CardView.\n\n\n",
+		"I started this project with my friend after the very first term of university.",
+		"We had a common interest in building a mobile application, and I also wanted to learn Java through doing some cool projects.",
+		"We gathered several ideas for this, and finally decided to build an app that relieves users’ stress.\n\n",
+		"We tried, but it was a GREAT failure. This app, which was supposed to give us relief,",
+		"rather had given us a stress more and more as we continued. There were several reasons to why we failed.",
+		"First, we didn’t know which contents to display for which circumstances. We were not a group of psychiatrists.",
+		"We simply didn’t know what to do. After all, we ended up collecting dozens of quotes and pictures,",
+		"and rendered one of them randomly regardless of quiz result.",
+		"Moreover, a mobile development was not an easy task for people like me with no programming experience outside of school.",
+		"Since Android Studio requires an extensive knowledge on things like Android development, OOP concepts and Java,",
+		"this project was just too confusing for beginners.",
+		"I regretted for not taking difficulty and manageability into consideration when choosing this project.",
+		"Even so, there were some things that I have learned.\n\n",
+		"  •    I learned Java. I looked through dozens of tutorials before I started this,",
+		"and by the end of the project, I had Java under my belt.\n",
+		"  •    I gained experience in mobile development. Now when somebody ever asks me if I have any mobile dev experience,",
+		"I can at least say “Well… yes.”\n",
+		"  •    Learning from mistakes. This provided a good guideline for planning/designing a personal project."
+    ],
+    "modalinfoGithub": "https://github.com/woongbinchoi/Breeze-Through",
+    "modalinfoTools": "Java, Android Studio",
+    "modalinfoDate": "January 2017",
+    "modalPictures": [
+    	"Breeze-ThroughModal.png",
+    	"Breeze-Through0.png",
+    	"Breeze-Through1.png",
+    	"Breeze-Through2.png"
+    ]
+  },
+  {
+    "displaytype": "image",
+    "type": "Projects",
+    "name": "FifaBot",
+    "modalinfoDescription": [
+		"FifaBot is a macro script to make playing FIFA easier.",
+		"FIFA used to be one of my favorite video games, but I started to get bored of it.",
+		"I realized that I kept doing the same repetitive task over and over again, so I made a bot doing that for me.",
+		"FifaBot automated running manager mode, (one that does not require direct control of players) buying/selling players on the market,",
+		"and upgrading players on the team.\n\n\n",
+		"It was fun while it lasted. Few months later, I got banned, permanently."
+    ],
+    "modalinfoTools": "AutoHotKey",
+    "modalinfoDate": "December 2016",
+    "modalPictures": [
+    	"FifaBotModal.png",
+    	"FifaBot0.png"
+    ]
+  }
+]

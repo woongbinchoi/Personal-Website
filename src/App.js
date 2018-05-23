@@ -96,7 +96,7 @@ class About extends Component {
 					In my spare time, I enjoy coding, playing sports, gaming and playing piano.<br/><br/>
 					Here, I also put some of the <a onClick={() => this.handleClick(3)}>projects</a> that I’ve worked on in the past.
 					If you would like to contact me, check out <a onClick={() => this.handleClick(4)}>this page</a>.<br/><br/>
-					I'm currently seeking an internship opportunity for this fall, 2018. 
+					I'm currently seeking an internship opportunity for this fall 2018. 
 					My contact information can be found <a onClick={() => this.handleClick(4)}>here</a>. 
 					Below is the list of companies that I’ve interned in the past.
 					<br/><br/>
@@ -167,7 +167,7 @@ class Contact extends Component {
 				<div className="col-md-3">
 					<div className="row">
 						{this.renderBoxComponent("Contact", "far", "envelope", "Email", 6, "mailto:woongbinchoi@gmail.com")}
-						{this.renderBoxComponent("ContactBrand", "fab", "facebook", "Facebook", 6, "https://www.facebook.com/woongbin.choi")}
+						{this.renderBoxComponent("ContactBrand", "fab", "facebook-messenger", "Messenger", 6, "https://www.messenger.com/t/woongbin.choi")}
 						{this.renderBoxComponent("ContactBrand", "fab", "instagram", "Instagram", 6, "https://www.instagram.com/woongbinchoi")}
 						{this.renderBoxComponent("ContactBrand", "fab", "linkedin", "LinkedIn", 6, "https://www.linkedin.com/in/richard-woongbin-choi-b6000b134/")}
 					</div>
@@ -233,16 +233,16 @@ class Main extends Component {
 	      		<Header onKeyChange={this.handleSelect}/>
 		        <Nav bsStyle="tabs" justified activeKey={this.state.activeKey} onSelect={key => this.handleSelect(key)}>
 		          	<NavItem eventKey={1} title="About">
-		           		<p>About</p>
+		           		<p>ABOUT</p>
 		          	</NavItem>
 		          	<NavItem eventKey={2} title="Skills">
-		            	<p>Skills</p>
+		            	<p>SKILLS</p>
 		          	</NavItem>
 		          	<NavItem eventKey={3} title="Projects">
-		            	<p>Projects</p>
+		            	<p>PROJECTS</p>
 		          	</NavItem>
 		          	<NavItem eventKey={4} title="Contact">
-		           		<p>Contact</p>
+		           		<p>CONTACTS</p>
 		          	</NavItem>
 		        </Nav>
 		        {this.renderMain(this.state.activeKey)}
@@ -343,7 +343,7 @@ class ClickableBoxComponent extends Component {
 	          			{this.getModalPicture()}
 	          			<div className="modalInfoContainer col-md-4">
 	          				<div className="modalInfo">
-		          				<p>{this.getDescription()}<br/><br/></p>
+		          				<p>{this.getDescription()}<br/><br/><br/><br/></p>
 			             		<p>{this.getLinks()}<br/></p>
 		          				<h4><b>Tools</b><br/></h4>
 		          				<p>{this.props.content.modalinfoTools}<br/><br/></p>

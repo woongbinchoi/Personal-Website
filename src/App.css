@@ -100,23 +100,51 @@ div.boxcomponent:hover {
 }
 
 div.boxcomponent.Language {
-  background-color: pink;
-}
-
-div.boxcomponent.Tool {
-  background-color: grey;
+  background-color: lightsteelblue;
 }
 
 div.boxcomponent.Framework {
   background-color: skyblue;
 }
 
+div.boxcomponent.Tool {
+  background-color: steelblue;
+}
+
 div.boxcomponent.OS {
-  background-color: lightgreen;
+  background-color: slateblue;
+}
+
+div.boxcomponent.Database {
+  background-color: midnightblue;
+}
+
+div.boxcomponent.ContactBrand, div.boxcomponent.Contact {
+  background-color: steelblue;
 }
 
 div.Works {
-  background-color: gray;
+  background-color: darkgray;
+}
+
+div.Works p.showOnHover {
+  color: white;
+  font-size: 1.5em;
+}
+
+div.Projects p.showOnHover {
+  font-size: 1.5em;
+  width: 100%;
+}
+
+div.col-md-3 div.Contact p.showOnHover, div.col-md-3 div.ContactBrand p.showOnHover {
+  font-size: 1.5em;
+  top: 80%;
+}
+
+div.col-md-6 div.Contact p.showOnHover, div.col-md-6 div.ContactBrand p.showOnHover {
+  font-size: 1em;
+  top: 70%;
 }
 
 div.boxcomponent:after {
@@ -127,6 +155,7 @@ div.boxcomponent:after {
 
 div.boxcomponent p.show, div.boxcomponent svg, div.boxcomponent i, div.boxcomponent img {
   color: white;
+  font-weight: bold;
   position: absolute;
   left: 50%;
   top: 50%;
@@ -138,12 +167,17 @@ div.boxcomponent img {
   width: 50%;
 }
 
+div.boxcomponent svg.fa-github, svg.fa-file-alt {
+  font-size: 5em;
+}
+
 div.boxcomponent i {
   font-size: 2.5em;
 }
 
 div.boxcomponent p.showOnHover {
   color: white;
+  font-weight: bold;
   position: absolute;
   left: 50%;
   top: 70%;
@@ -154,6 +188,7 @@ div.boxcomponent p.showOnHover {
 div.boxcomponent p.showOnHoverImg {
   top: 80%;
 }
+
 div.boxcomponent:hover svg, div.boxcomponent:hover i, div.boxcomponent:hover img {
   top: 40%;
 }
@@ -167,8 +202,13 @@ div.menudiv {
 }
 
 div.menudiv ul.nav p {
-  color: black;
+  color: #404040;
   margin: 0;
+}
+
+div.menudiv ul.nav li.active p {
+  font-weight: bold;
+  color: black;
 }
 
 
@@ -187,7 +227,6 @@ div.About a {
   font-weight: bold;
 }
 
-
 div.Footer {
   position: relative;
   bottom: 0;
@@ -195,12 +234,10 @@ div.Footer {
   padding: 1rem;
   margin-top: 15%;
   width: 100%;
-  
   text-align: center;
   background-color: black;
   color: white;
 }
-
 
 #ModalHeader {
   padding: 1%;

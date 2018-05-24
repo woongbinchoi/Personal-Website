@@ -167,8 +167,6 @@ class Contact extends Component {
 				<div className="col-md-3">
 					<div className="row">
 						{this.renderBoxComponent("Contact", "far", "envelope", "Email", 6, "mailto:woongbinchoi@gmail.com")}
-						{this.renderBoxComponent("ContactBrand", "fab", "facebook-messenger", "Messenger", 6, "https://www.messenger.com/t/woongbin.choi")}
-						{this.renderBoxComponent("ContactBrand", "fab", "instagram", "Instagram", 6, "https://www.instagram.com/woongbinchoi")}
 						{this.renderBoxComponent("ContactBrand", "fab", "linkedin", "LinkedIn", 6, "https://www.linkedin.com/in/richard-woongbin-choi-b6000b134/")}
 					</div>
 				</div>
@@ -422,6 +420,7 @@ class App extends Component {
 			    </div>
 			    <div className="Footer container-fluid">
 					<p>Copyright &copy; Richard Woongbin Choi 2018.</p>
+          <p className="iconCredit">Icons made by Freepik from www.flaticon.com, licensed by CC 3.0 BY</p>
 				</div>
 			</div>
 	    );

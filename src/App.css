@@ -239,6 +239,16 @@ div.Footer {
   color: white;
 }
 
+div.Footer p {
+  margin: 0;
+  display: inline;
+}
+
+div.Footer p.iconCredit {
+  color: gray;
+  margin-left: 5%;
+}
+
 #ModalHeader {
   padding: 1%;
 }
